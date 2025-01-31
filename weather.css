@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------------background */
+.container-fluid {
+ 
+  background-image: url(ee);
+  background-size: cover;
+  
+  height: auto;
+ 
+}
+
+.row {
+  padding-top: 5.5rem;
+  padding-bottom: 5rem;
+}
+/* -----------------------------header */
+.header {
+  background-image: url(sun.jpg);
+  background-size: cover;
+  background-position: relative;
+  color: rgb(12, 11, 6);
+  text-align: center;
+  padding: 5rem;
+}
+
+.header h1 {
+  font-weight: 500;
+  font-size: 34px;
+  font-family: "Indie Flower", cursive;
+  color: #e4eff7;
+}
+.header p {
+  margin-top: 1rem;
+  font-weight: bolder;
+  font-size: 1.5 rem;
+  color: #e4eff7;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #d0e5f5;
+}
+.main {
+  background-image: url(wer);
+  opacity: 1;
+}
+
+/* --------------------------------input section */
+.inputs {
+  padding: 6rem 0 2rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.inputs input[type="text"] {
+  height: 3.5rem;
+  width: 30rem;
+  background: #de5454;
+  opacity: 1;
+
+  font-weight: bold;
+  font-size: 1.7rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 1px #e7cdc1;
+  color: #000101;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+.inputs input[type="submit"] {
+  height: 3.5rem;
+  width: 6.5rem;
+  background: #16a8a8;
+  font-weight: bold;
+  color: rgb(222, 233, 231);
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+/* -------------------------------display */
+.display {
+  text-align: center;
+  color: #f8f9f9;
+  font-weight: bolder;
+  font-size: 200px;
+}
+.wrapper {
+  margin: 0 9rem;
+  width: 50%;
+  background-image: url(small.jpg);
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 8px;
+}
+
+.wrapper h2 {
+  padding: 5px 0;
+  text-align: center;
+}
+.wrapper p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
